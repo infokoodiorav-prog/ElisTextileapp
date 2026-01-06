@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaiba ja tööriiete äpp</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#17a2b8">
+</head>
+<body>
+<div class="logo">
+    <img src="logo2.png" alt="Logopilt">
+</div>
+
+<div class="reis">
+    <input type="text" placeholder="Sisestage juhi nimi" class="juht" required value="">
+    <input type="text" placeholder="Sisestage reisinumber" class="number" required>
+    <button class="laadi-btn" onclick="laadiReis()">Laadi reis</button>
+</div>
+
+<div class="footer">
+<hr class="footer-line">
+© 2025 Elis Textile Service AS</div>
+
+<div id="reis-list-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="sulgeModal()">&times;</span>
+        <div id="progress-box">
+        <div id="progress-text">Progress: 0 / 0 (0%)</div>
+        <div id="vaipade-info"></div>
+        <div id="riiete-kokkuvote">
+  Kotid kokku: 0 | Mustad kokku: 0
+</div>
+        <div id="progress-bar-bg">
+        <div id="progress-bar"></div>
+            
+        </div>
+    </div>
+    <div id="reis-list"></div>
+
+    <div id="allkirja-box" style="display:none;">
+  <h3>Päeva kinnitamine</h3>
+
+  <div>
+    <label>Allkiri:</label><br>
+    <input id="allkiri-nimi" type="text" placeholder="Ees- ja perekonnanimi">
+  </div>
+
+  <button id="kinnita-paev">Kinnita päev</button>
+
+  <div id="allkirja-info"></div>
+</div>
+
+
+    <div class="nupud">
+<button class="nupp" onclick="ekspordiExcel(document.querySelector('.number').value)">Saada reis kontorisse</button>
+
+</div>
+</div>
+</div>
+
+
+<script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+<script src="index.js"></script>
+ <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            if (!window.location.hostname.includes("localhost") &&
+            !window.location.hostname.includes("127.0.0.1")) {
+            navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log("Service Worker registreeritud!", reg))
+            .catch(err => console.log("SW registreerimise viga:", err));
+        } else {
+        console.log("SW registreerimine on lokaalselt välja lülitatud");
+        }
+    });
+}
+    </script>
+</body>
+</html>

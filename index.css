@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --dark-bg: #1a1a1a;
+  --blueish-bg: #004f55;
+  --white: #ffffff;
+  --light-gray: #c0c0c0;
+  --footer-gray: #999999;
+  --turquoise: #00d4d9;
+  --turquoise-dark: #00a1a5;
+  --light-blue: #4dd0e1;
+  --soft-green: #66ffcc;
+  --button-text-dark: #1a1a1a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat" Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #1a1a1a, #004f55);
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+    margin-bottom: 50px;
+}
+
+.reis {
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.reis input, .reis button {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #17a2b8;
+    width: 100%;
+}
+.laadi-btn {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.laadi-btn:hover {
+    background-color: #0056b3;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.koht {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.koht-btn {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    background: none;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.vaibad {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.vaibad div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.vaibad button {
+    margin-left: 5px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.done-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.fail-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.marker {
+    color: orange;
+    margin-left: 5px;
+}
+.footer-line {
+    width: 60%;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px auto 10px auto;
+}
+.footer {
+     margin-top: 0px;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+}
+#progress-box {
+    margin-bottom: 15px;
+}
+
+#progress-text {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#progress-bar-bg {
+    width: 100%;
+    height: 12px;
+    background: #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #28a745;
+    transition: width 0.3s;
+}
+.done-btn,
+.fail-btn,
+.reset-btn,
+.reset-koht-btn {
+    margin-left: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.done-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.done-btn:hover {
+    background-color: #1e7e34;
+}
+
+.fail-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.fail-btn:hover {
+    background-color: #a71d2a;
+}
+
+.reset-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #e0a800;
+}
+
+.reset-koht-btn {
+    background-color: #17a2b8;
+    color: white;
+    margin-left: 10px;
+}
+
+.reset-koht-btn:hover {
+    background-color: #117a8b;
+}
+.modal-content .nupp {
+    border-radius: 15px;
+    padding: 8px 8px;
+    border: none;
+    margin-top: 20px;
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+    
+}
+.modal-content .nupud {
+ display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+.koht-title {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.koht-meta {
+  font-size: 12px;
+  opacity: 0.8;
+}
+#vaipade-info{
+    display: block;
+    text-align: right;
+    font-weight: 900;
+}
+#riiete-kokkuvote{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+}
+#allkirja-box {
+  margin-top: 12px;
+  padding: 10px 14px;
+
+  background: #f7faf7;           /* õrn rohekas hall */
+  border: 1px solid #d6e4d6;
+  border-radius: 10px;
+
+  font-size: 14px;
+  color: black;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+#allkirja-box button{
+    border-radius: 15px;
+    padding: 8px 8px;
+    border: none;
+    margin-top: 8px;
+    background-color: #17a2b8;
+    color: white;
+    cursor: pointer;
+}
