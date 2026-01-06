@@ -2002,7 +2002,13 @@ const nädalaplaan = {
     5: "1502"
 }
 
+const loginKoodid = {
+  "MO95": { nimi: "Martti Orav", lubatudReisid: ["1111", "1310"] },
+  "BBB": { nimi: "Mati Maasikas", lubatudReisid: ["1502"] },
+  "CCC": { nimi: "Kati Kask", lubatudReisid: ["1405"] }
+};
 
+const DEMO_MODE = true; //demo sees true -- demo väljas - false
 
 
 // --- Salvestus ---
@@ -2211,34 +2217,67 @@ function initAllkiri(reis) {
       nimi,
       aeg: new Date().toISOString()
     };
-
+uuendaExcelNupp(reis)
     salvesta();
-    initAllkiri(reis); // uuenda vaade
+    initAllkiri(reis);
+    ; // uuenda vaade
   };
 }
 function lukustaReis() {
+    if (DEMO_MODE) return;
   document
     .querySelectorAll("input, .done-btn, .fail-btn, .reset-btn, .reset-koht-btn")
     .forEach(el => el.disabled = true);
 }
+function uuendaExcelNupp(reis) {
+  const btn = document.querySelector(".nupud .nupp");
+  if (!btn) return;
 
+  if (DEMO_MODE) {
+    btn.disabled = false;
+    return;
+  }
+
+  const kinnitatud = !!appData[TODAY]?.[reis]?.allkiri;
+  btn.disabled = !kinnitatud;
+}
 
 function laadiReis() {
     vaipadeKokku = 0;
     const reis = document.querySelector(".number").value.trim();
     const juhtInput = document.querySelector(".juht");
-    const juht = juhtInput.value.trim();
+    const loginKood = juhtInput.value.trim().toUpperCase();
+    const kasutaja = loginKoodid[loginKood];
 
-    if (!baasReisid) { alert("Palun sisesta reisinumber!"); return; }
-    if (!juht && (!appData[TODAY]?.[reis]?.juht)) { alert("Palun sisesta juht!"); return; }
+    if(!reis) {
+        alert("Palun sisesta reisinumber");
+        return;
+    }
 
-    if (!appData[TODAY]) appData[TODAY] = {};
-    if (!appData[TODAY][reis]) appData[TODAY][reis] = {};
-    if (juht) appData[TODAY][reis].juht = juht;
-    salvesta();
-    juhtInput.value = appData[TODAY][reis].juht;
+if (!kasutaja) {
+  alert("Vale sisselogimise kood");
+  return;
+}
 
-    if (!baasReisid[reis]) { alert("Reisinumbrit ei leitud"); return; }
+if (
+    kasutaja.lubatudReisid.length &&
+    !kasutaja.lubatudReisid.includes(reis)
+  ) {
+    alert("Sul ei ole õigust sellele reisile");
+    return;
+  }
+
+  if (!baasReisid[reis]) {
+    alert("Reisinumbrit ei leitud");
+    return;
+  }
+
+// ✅ automaatselt õige nimi
+if (!appData[TODAY]) appData[TODAY] = {};
+  if (!appData[TODAY][reis]) appData[TODAY][reis] = {};
+  
+appData[TODAY][reis].juht = kasutaja.nimi;
+salvesta();
 
     const list = document.getElementById("reis-list");
     list.innerHTML = "";
@@ -2498,7 +2537,7 @@ resetKoht.onclick = () => {
 
     uuendaProgress(reis);
     uuendaRiieteKokkuvote(reis);
-
+    uuendaExcelNupp(reis);
   salvesta();
 
 
@@ -2515,11 +2554,19 @@ function sulgeModal() {
 }
 
 // --- Excel eksport ---
-function ekspordiExcel(reis) {
+    function ekspordiExcel(reis) {
+
+  if (!DEMO_MODE && !appData[TODAY]?.[reis]?.allkiri) {
+    alert("Päev ei ole veel kinnitatud. Palun kinnita päev enne saatmist.");
+    return;
+  }
+
   if (!appData[TODAY]?.[reis]) {
     alert("Selle päeva või reisi andmeid ei leitud.");
     return;
   }
+   
+
 
   const dayData = appData[TODAY][reis];
   const juht = dayData.juht || "Määramata";
