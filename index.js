@@ -6,8 +6,8 @@ const baasReisid = {
             koht: {
                 id: "AAP",
                 nimi: "Aasta Auto Pluss",
-                aadress: "Aardla 101, Tartu",
-                kontakt: "Andres Tark - 5015755",
+                aadress: "AaXXXXa XX1, Tartu",
+                kontakt: "Kontor - +XXX XXXXXXXX",
                 lisainfo: "Avatud 08:00-17:00",
                 tarnekood: "101512",
                 saateleht: "2917234"
@@ -53,9 +53,9 @@ const baasReisid = {
         { koht: {
                 id: "HKM",
                 nimi: "Kortermaja",
-                aadress: "Haki 4, Tartu",
-                kontakt: "Gert Klaasen - 5161170",
-                lisainfo: "Uksekood - #4385",
+                aadress: "HXXX X, Tartu",
+                kontakt: "Kontor - +XXX XXXXXXXX",
+                lisainfo: "Uksekood - #XXXX",
                 tarnekood: "112991",
                 saateleht: "2917257"
             },
@@ -87,9 +87,9 @@ const baasReisid = {
          koht: {
                 id: "SKM",
                 nimi: "Kortermaja",
-                aadress: "Savi 41, Tartu",
-                kontakt: "Tiina Randoja - 58440367",
-                lisainfo: "Uksekood - #9362",
+                aadress: "SaXXi XX, Tartu",
+                kontakt: "TiXXXX RanXXXXXX - +XXX XXXXXXXX",
+                lisainfo: "Uksekood - #XXXX",
                 tarnekood: "110037",
                 saateleht: "2917248"
             },
@@ -106,8 +106,8 @@ const baasReisid = {
         { koht: {
                 id: "KMS",
                 nimi: "Kortermaja",
-                aadress: "Savi 6A, Tartu",
-                kontakt: "Gert Klaasen - 5161170",
+                aadress: "SXXX XX, Tartu",
+                kontakt: "Info - +XXX XXXXXXXX",
                 lisainfo: "Sissepääs võtmega",
                 tarnekood: "114795",
                 saateleht: "2917266"
@@ -139,7 +139,7 @@ const baasReisid = {
         { koht: {
                 id: "KKM",
                 nimi: "Kortermaja",
-                aadress: "Kulli 6, Tartu",
+                aadress: "KXXXi X, Tartu",
                 lisainfo: "Sissepääs kiibiga",
                 tarnekood: "105690",
                 saateleht: "2917242"
@@ -164,7 +164,7 @@ const baasReisid = {
         { koht: {
                 id: "TRM",
                 nimi: "TööriistaMarket",
-                aadress: "Tammetõru 3, Tartu",
+                aadress: "Tammexxx, Tartu",
                 lisainfo: "Avatud 08:00 - 19:00",
                 tarnekood: "107060",
                 saateleht: "2917234"
@@ -196,9 +196,9 @@ const baasReisid = {
         { koht: {
                 id: "AST",
                 nimi: "Autospirit Tartu",
-                aadress: "Lääneringitee 50, Tartu",
+                aadress: "LäXXXXXXXX XX, Tartu",
                 lisainfo: "Avatud 08:00 - 18:00",
-                kontakt: "Kaarin Ootsing - 5042102",
+                kontakt: "+XXX XXXXXXXX",
                 tarnekood: "109138",
                 saateleht: "2917245"
             },
@@ -236,9 +236,9 @@ const baasReisid = {
         { koht: {
                 id: "BTO",
                 nimi: "Baltem Tartu",
-                aadress: "Männiku 1, Tartu",
+                aadress: "MXXXXX X, TXXtu",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt: "Rauno Sander -55534590",
+                kontakt: "RXXXX sXXdXrX - +XXX XXXXXXXX",
                 tarnekood: "113701",
                 saateleht: "2917262"
             },
@@ -269,8 +269,8 @@ const baasReisid = {
         { koht: {
                 id: "EE",
                 nimi: "Eesti Energia AS",
-                aadress: "Ristla tee 6, Tartu",
-                lisainfo: "Box 9 - sissepääs kaardiga",
+                aadress: "RXXXX XXXX X, Tartu",
+                lisainfo: "Box X - sissepääs kaardiga",
                 tarnekood: "115708",
                 saateleht: "2917288"
             },
@@ -287,9 +287,9 @@ const baasReisid = {
         { koht: {
                 id: "TS",
                 nimi: "Texas Service OÜ",
-                aadress: "Vinkli 4, Tartu",
+                aadress: "VXXXX X, Tartu",
                 lisainfo: "Avatud 09:00 - 18:00",
-                kontakt: "Inguna Oraka - 55608814",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "113337",
                 saateleht: "2917261"
             },
@@ -305,8 +305,8 @@ const baasReisid = {
         },
         { koht: {
                 id: "KLK",
-                nimi: "Ladu 9 kontor, TÜ Kliinikum",
-                aadress: "Vinkli 4, Tartu",
+                nimi: "Ladu X kontor, TÜ Kliinikum",
+                aadress: "VXXXXX, Tartu",
                 lisainfo: "Lase uksekella, kui uks on kinni",
                 tarnekood: "114726",
                 saateleht: "2917265"
@@ -329,8 +329,8 @@ const baasReisid = {
             ]
         },{ koht: {
                 id: "KLA",
-                nimi: "Ladu 5 arhiiv, TÜ Kliinikum",
-                aadress: "Vinkli 4, Tartu",
+                nimi: "Ladu X arhiiv, TÜ Kliinikum",
+                aadress: "VXXXXi X, Tartu",
                 lisainfo: "Lase uksekella, kui uks on kinni",
                 tarnekood: "115459",
                 saateleht: "2917273"
@@ -347,9 +347,9 @@ const baasReisid = {
         },{ koht: {
                 id: "TR",
                 nimi: "Tuglase Rimi",
-                aadress: "Tuglase 19, Tartu",
+                aadress: "TugXXXXX XX, Tartu",
                 lisainfo: "Avatud 08:00 - 21:00",
-                kontakt: "Piia - 56944587",
+                kontakt: "Info - +XXX XXXXXXXX",
                 tarnekood: "108832",
                 saateleht: "2917244"
             },
@@ -365,9 +365,9 @@ const baasReisid = {
         },{ koht: {
                 id: "RPI",
                 nimi: "Rehvid Pluss Tartu",
-                aadress: "Aardla 23C, Tartu",
+                aadress: "AarXXX XXX, Tartu",
                 lisainfo: "Avatud 09:00 - 18:00",
-                kontakt: "Juhan Oks - 55585471",
+                kontakt: "JuXXXX OXXX - +XXX XXXXXXXX",
                 tarnekood: "113128",
                 saateleht: "2917258"
             },
@@ -397,8 +397,8 @@ const baasReisid = {
         },{ koht: {
                 id: "KT",
                 nimi: "Kaur Trade OÜ",
-                aadress: "Rehepapi tee 23, Tartu",
-                kontakt : "Rene Mets - 53014648",
+                aadress: "RXXXXXXi tXX XX, Tartu",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "111108",
                 saateleht: "2917250"
             },
@@ -408,7 +408,7 @@ const baasReisid = {
                 artikkel: "300000",
                 kirjeldus : "Köögirätikud 50X90(5Tk KMPL)",
                 kogus: 2,
-                asukoht: "1- ja 2- korruse kööki(1 KMLP)",
+                asukoht: "X- ja X- korruse kööki(1 KMLP)",
                 },
                 {
                 id : "AAP-035",
@@ -449,7 +449,7 @@ const baasReisid = {
         },{ koht: {
                 id: "TTT",
                 nimi: "Thermory Tõrvandi Tootmine",
-                aadress: "Teeninduse Tee 9, Tõrvandi",
+                aadress: "TeXXXXX XXX X, Tõrvandi",
                 tarnekood: "114681",
                 saateleht: "2917264"
             },
@@ -465,9 +465,9 @@ const baasReisid = {
         },{ koht: {
                 id: "TPT",
                 nimi: "Talent Plastics Tartu AS",
-                aadress: "Tööstuse tee 4, Tõrvandi",
-                kontakt: "53322437",
-                lisainfo: "Sisenda lao uksest, kui uks suletud lase uksekella, avatud 08:00 - 17: 00",
+                aadress: "Tõrvandi",
+                kontakt: "+XXX XXXXXXXX",
+                lisainfo: "Sisenda XXX XXXXX, kui uks suletud lase XXXXXXXX, avatud 08:00 - 17: 00",
                 tarnekood: "102934",
                 saateleht: "2917238"
             },
@@ -518,7 +518,7 @@ const baasReisid = {
         },{ koht: {
                 id: "RP",
                 nimi: "Rõngu Pagar",
-                aadress: "Sepa 21, Tartu",
+                aadress: "XXXX XX, TaXtu",
                 lisainfo: "Avatud 09:00 - 20:00",
                 tarnekood: "115220",
                 saateleht: "2917269"
@@ -542,8 +542,8 @@ const baasReisid = {
         },{ koht: {
                 id: "SKS",
                 nimi: "Sepa keskus, sissepääsud",
-                aadress: "Sepa 21, Tartu",
-                kontakt: "Jaanus IJE - 53489622",
+                aadress: "Tartu",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 lisainfo: "Avatud 08:00 - 17:00",
                 tarnekood: "100113",
                 saateleht: "2917232"
@@ -561,8 +561,8 @@ const baasReisid = {
         { koht: {
                 id: "CKK",
                 nimi: "Kvissentali Coop",
-                aadress: "Aruküla tee 5, Tartu",
-                kontakt: "Ahto Pariots - 5026288",
+                aadress: "Axxxxxxx xx, Tartu",
+                kontakt: "Info - +XXX XXXXXXXX",
                 lisainfo: "Avatud 09:00 - 22:00",
                 tarnekood: "113326",
                 saateleht: "2917260"
@@ -593,8 +593,8 @@ const baasReisid = {
         },{ koht: {
                 id: "VTE",
                 nimi: "Vianor Tartu esindus",
-                aadress: "Ringtee 35, Tartu",
-                kontakt: "7371850",
+                aadress: "XXXXXee XX, Tartu",
+                kontakt: "+XXX XXXXXXXX",
                 lisainfo: "Avatud 09:00 - 17:00",
                 tarnekood: "115094",
                 saateleht: "2917267"
@@ -619,7 +619,7 @@ const baasReisid = {
         { koht: {
                 id: "AK",
                 nimi: "Alas-Kuul AS",
-                aadress: "Ringtee 35, Tartu",
+                aadress: "XXXXteeXX, Tartu",
                 lisainfo: "Avatud 08:00 - 17:00",
                 tarnekood: "111805",
                 saateleht: "2917255"
@@ -637,8 +637,8 @@ const baasReisid = {
         { koht: {
                 id: "OET",
                 nimi: "Onninen Express Tartu",
-                aadress: "Tehnika 30, Tartu",
-                kontakt: "Piret Kullamaa - 53096963",
+                aadress: "TehXXXX XX, XXXtu",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 lisainfo: "Avatud 07:30 - 17:30",
                 tarnekood: "101592",
                 saateleht: "2917235"
@@ -663,8 +663,8 @@ const baasReisid = {
         { koht: {
                 id: "ATL",
                 nimi: "Autoremont T-Lab",
-                aadress: "Inseneri2, Tartu",
-                kontakt: "Mardo Silm - 5295534",
+                aadress: "IXXXXXXX, Tartu",
+                kontakt: "+XXX XXXXXXXX",
                 lisainfo: "Avatud 08:30 - 17:00",
                 tarnekood: "114561",
                 saateleht: "2917263"
@@ -688,8 +688,8 @@ const baasReisid = {
         },
         { koht: {
                 id: "JEH",
-                nimi: "Keskonnaameti kontor - Tartu",
-                aadress: "Aleksandri 14, Tartu",
+                nimi: "Keskonnaameti kontor",
+                aadress: "AlXXXX xx, Tartu",
                 lisainfo: "Sissepääs kaardiga, vaiba paigutus joonisel",
                 tarnekood: "115593",
                 saateleht: "2917284"
@@ -770,8 +770,8 @@ const baasReisid = {
         { koht: {
                 id: "TKM",
                 nimi: "Tartu Kohtumaja",
-                aadress: "Kalevi 1, Tartu",
-                kontakt: "Puhastusteenindaja - 5629 5504, kohal alates 11:00",
+                aadress: "KXXXX X, Tartu",
+                kontakt: "Puhastusteenindaja - +XXX XXXXXXXX, kohal alates XX:00",
                 lisainfo: "Puhastusteenindaja juhendab vahetamisel",
                 tarnekood: "115497",
                 saateleht: "2917274"
@@ -873,8 +873,8 @@ const baasReisid = {
         { koht: {
                 id: "JKM",
                 nimi: "Kortermaja",
-                aadress: "Jaama169, Tartu",
-                kontakt: "Gert Klaasen 5161170",
+                aadress: "Tartu",
+                kontakt: "+XXX XXXXXXXX",
                 lisainfo: "Sissepääs kiibiga",
                 tarnekood: "110822",
                 saateleht: "2917249"
@@ -899,7 +899,7 @@ const baasReisid = {
         { koht: {
                 id: "KLK",
                 nimi: "Kivilinna Coop",
-                aadress: "Jaama173, Tartu",
+                aadress: "JXXXXX, Tartu",
                 lisainfo: "Avatud 08:00 - 17:00",
                 tarnekood: "110822",
                 saateleht: "2917249"
@@ -931,9 +931,9 @@ const baasReisid = {
         { koht: {
                 id: "JKM",
                 nimi: "Kortermaja",
-                aadress: "Jaama193, Tartu",
-                lisainfo: "1. trepikoda #7530, 2. trepikoda #9510",
-                kontakt:"Meelis Põvvat - 53943599",
+                aadress: "JaXXXXX, Tartu",
+                lisainfo: "X. trepikoda #XXXX, X. trepikoda #XXXX",
+                kontakt:"Haldur - +XXX XXXXXXXX",
                 tarnekood: "109791",
                 saateleht: "2917246"
             },
@@ -950,9 +950,9 @@ const baasReisid = {
         { koht: {
                 id: "MKM",
                 nimi: "Kortermaja",
-                aadress: "Mõisavahe 35, Tartu",
+                aadress: "MõXXXXvahe XX, Tartu",
                 lisainfo: "Sissepääs kiibiga",
-                kontakt:"Liia Peepson - 53334672",
+                kontakt:"Puhastusteenindaja  - +XXX XXXXXXXX",
                 tarnekood: "112590",
                 saateleht: "2917256"
             },
@@ -976,9 +976,9 @@ const baasReisid = {
         { koht: {
                 id: "PKM",
                 nimi: "Kortermaja",
-                aadress: "Pikk 96, Tartu",
+                aadress: "XXXX XX, Tartu",
                 lisainfo: "Sissepääs kiibiga",
-                kontakt: "Alekesi Vaskin - 58532664",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "115343",
                 saateleht: "2917272"
             },
@@ -995,7 +995,7 @@ const baasReisid = {
         { koht: {
                 id: "ABC",
                 nimi: "Arihoone",
-                aadress: "Paju Tn 2, Tartu",
+                aadress: "Tartu",
                 tarnekood: "115100",
                 saateleht: "2917268"
             },
@@ -1012,9 +1012,9 @@ const baasReisid = {
         { koht: {
                 id: "JM",
                 nimi: "JM Auto OÜ",
-                aadress: "Puiestee 2F/1, Tartu",
+                aadress: "PXXXXXX X/X, Tartu",
                 lisainfo: "Avatud 09:00 - 16:00",
-                kontakt: "Joel Luht - 55649437",
+                kontakt: "+XXX XXXXXXXX",
                 tarnekood: "115309",
                 saateleht: "2917271"
             },
@@ -1038,7 +1038,7 @@ const baasReisid = {
         { koht: {
                 id: "AKM",
                 nimi: "Kortermaja",
-                aadress: "Aruküla tee 22, Tartu",
+                aadress: "ArXXXXX XXXX X2, Tartu",
                 lisainfo: "Sissepääs kiibiga",
                 tarnekood: "115290",
                 saateleht: "2917270"
@@ -1056,7 +1056,7 @@ const baasReisid = {
         { koht: {
                 id: "PEA",
                 nimi: "Euroapteek",
-                aadress: "Piparmündi 1, Tartu",
+                aadress: "PipaXXXXX X, Tartu",
                 lisainfo: "Avatud 08:00 - 17:00",
                 tarnekood: "101406",
                 saateleht: "2917233"
@@ -1074,9 +1074,9 @@ const baasReisid = {
          { koht: {
                 id: "NKM",
                 nimi: "Kortermaja",
-                aadress: "Nõlvaku 15, Tartu",
-                lisainfo: "1. - 4#0360, 2. - 44#8179, 3. - 55#5200",
-                kontakt: "Silver Kuusik - 5248456",
+                aadress: "Xxxxxu XX, XXXtu",
+                lisainfo: "X. - X#XXX, X. - XX#XX, X. - XX#XXXX",
+                kontakt: "SXXXX Xxxxk - +XXX XXXXXXXX",
                 tarnekood: "105527",
                 saateleht: "2917241"
             },
@@ -1093,9 +1093,9 @@ const baasReisid = {
         { koht: {
                 id: "PAKM",
                 nimi: "Kortermaja",
-                aadress: "Pärna allee 4, Tartu",
+                aadress: "Tartu",
                 lisainfo: "Sissepääs võtmega",
-                kontakt: "Rain Härmits - 58413703",
+                kontakt: "Info +XXX XXXXXXXX",
                 tarnekood: "105472",
                 saateleht: "2917240"
             },
@@ -1112,9 +1112,9 @@ const baasReisid = {
          { koht: {
                 id: "RLH",
                 nimi: "Raadi Lastehoid",
-                aadress: "Pärna allee 6/8, Tartu",
+                aadress: "PXXa aXXXe X/X, Tartu",
                 lisainfo: "Avatud 07:30 - 17:30",
-                kontakt: "Mare Aas - 5067165",
+                kontakt: "+XXX XXXXXXXX",
                 tarnekood: "102677",
                 saateleht: "2917240"
             },
@@ -1124,30 +1124,30 @@ const baasReisid = {
                 artikkel: "100003",
                 kirjeldus : "Classic PR 115X200",
                 kogus: 1,
-                asukoht: "Pärna allee 8 parka poolse ukse ette",
+                asukoht: "XXXXa XXXXe X parka poolse ukse ette",
                 },
                  {
                 id : "AAP-100",
                 artikkel: "100003",
                 kirjeldus : "Classic PR 115X200",
                 kogus: 6,
-                asukoht: "Pärna allee 8 maja taga kaks sissepääsu, mõlemasse 3 vaipa, igale korrusele 1",
+                asukoht: "PXXXXa aXXXee X maja taga kaks sissepääsu, mõlemasse 3 vaipa, igale korrusele 1",
                 },
                  {
                 id : "AAP-101",
                 artikkel: "100003",
                 kirjeldus : "Classic PR 115X200",
                 kogus: 1,
-                asukoht: "Pärna allee 6 , maja tagant, ukse ette",
+                asukoht: "PXXna XXlee X , maja tagant, ukse ette",
                 }
             ]
         },
         { koht: {
                 id: "ETKM",
                 nimi: "Kortermaja",
-                aadress: "Erminurme tee 4, Tartu",
-                lisainfo: "Sissepääs koodiga - #4656",
-                kontakt: "Liisbet Jõesaar - 56901172",
+                aadress: "Ermxxxx xxe XX, Tartu",
+                lisainfo: "Sissepääs koodiga - #XXX",
+                kontakt: "Kontor +XXX XXXXXXXX",
                 tarnekood: "102677",
                 saateleht: "2917240"
             },
@@ -1166,7 +1166,7 @@ const baasReisid = {
                 nimi: "Klar Home OÜ",
                 aadress: "Vinnali, Tartu",
                 lisainfo: "Avatud 08:00 - 16:30",
-                kontakt: "Candela Roos - 53858316",
+                kontakt: "Klienditeenindus +XXX XXXXXXXX",
                 tarnekood: "109933",
                 saateleht: "2917247"
             },
@@ -1190,9 +1190,9 @@ const baasReisid = {
         { koht: {
                 id: "RKM",
                 nimi: "Kortermaja",
-                aadress: "Raadiraja 18, Tartu",
-                lisainfo: "Uksekood - #1805",
-                kontakt: "Rauno Kiisk - 5140113",
+                aadress: "Raaxxxxx X2X, Tartu",
+                lisainfo: "Uksekood - #XXXX",
+                kontakt: "Rxxxx Kxxxk - +XXX XXXXXXXX",
                 tarnekood: "111158",
                 saateleht: "2917251"
             },
@@ -1216,9 +1216,9 @@ const baasReisid = {
         { koht: {
                 id: "TKH",
                 nimi: "Kortermaja",
-                aadress: "Raadiraja 20, Tartu",
-                lisainfo: "Uksekood - #4201",
-                kontakt: "Rauno Kiisk - 5140113",
+                aadress: "Raaxxxxx X2X, Tartu",
+                lisainfo: "Uksekood - #XXXX",
+                kontakt: "Rxxxx Kxxxk - +XXX XXXXXXXX",
                 tarnekood: "111159",
                 saateleht: "2917252"
             },
@@ -1242,9 +1242,9 @@ const baasReisid = {
         { koht: {
                 id: "RRM",
                 nimi: "Kortermaja",
-                aadress: "Raadiraja 22, Tartu",
-                lisainfo: "Uksekood - #6435",
-                kontakt: "Rauno Kiisk - 5140113",
+                aadress: "Raaxxxxx X2X, Tartu",
+                lisainfo: "Uksekood - #XXXX",
+                kontakt: "Rxxxx Kxxxk - +XXX XXXXXXXX",
                 tarnekood: "11623",
                 saateleht: "2917253"
             },
@@ -1268,9 +1268,9 @@ const baasReisid = {
         { koht: {
                 id: "KMRR",
                 nimi: "Kortermaja",
-                aadress: "Raadiraja 24, Tartu",
-                lisainfo: "Uksekood - #4371",
-                kontakt: "Rauno Kiisk - 5140113",
+                aadress: "Raaxxxxx X2X, Tartu",
+                lisainfo: "Uksekood - #XXXX",
+                kontakt: "Rxxxx Kxxxk - +XXX XXXXXXXX",
                 tarnekood: "11624",
                 saateleht: "2917254"
             },
@@ -1293,10 +1293,10 @@ const baasReisid = {
         },
 { koht: {
                 id: "HTM",
-                nimi: "Hilaris, Tähe majad OÜ",
-                aadress: "Puiestee 71A, Tartu",
+                nimi: "Hilaris",
+                aadress: "Tartu",
                 lisainfo: "Lase alt kella",
-                kontakt: "Robert Jaani - 5043664",
+                kontakt: "RoXXXX XXXi - +XXX XXXXXXXX",
                 tarnekood: "103084",
                 saateleht: "2917239"
             },
@@ -1316,9 +1316,9 @@ const baasReisid = {
         { koht: {
                 id: "LV",
                 nimi: "Liistuvabrik OÜ",
-                aadress: "Puiestee 16, Kambja",
+                aadress: "Kambja",
                 lisainfo: "Avatud 08:00 - 18:00",
-                kontakt: "Kerli Reimann - 5267323",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "111850",
                 saateleht: "2919397"
             },
@@ -1366,8 +1366,8 @@ const baasReisid = {
         { koht: {
                 id: "TRR",
                 nimi: "Thermory Reola, AS - Reola 2",
-                aadress: "Vilja tee 14, Reola",
-                lisainfo: "Maja Nr 6 - tootmine üle tee",
+                aadress: "Vilxxx xx ,xxxla",
+                lisainfo: "Maja Nr X - tootmine üle tee",
                 tarnekood: "111904"
             },
             riided: [
@@ -1381,9 +1381,9 @@ const baasReisid = {
         { koht: {
                 id: "TRN",
                 nimi: "Thermory Reola, AS - Naised",
-                aadress: "Vilja tee 14, Reola",
+                aadress: "Vxxxx xxxx xx,xxola",
                 lisainfo: "Söögitoast edasi - vasakule - trepi all",
-                kontakt : "Katre Pau - 5110797",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "110636"
             },
             riided: [
@@ -1395,10 +1395,10 @@ const baasReisid = {
         },
         { koht: {
                 id: "TRM",
-                nimi: "Thermory Reola, AS - Mehed",
-                aadress: "Vilja tee 14, Reola",
+                nimi: "Thermory Reola",
+                aadress: "Vilxxxxxx, xxxx",
                 lisainfo: "Enne söögituba - uks vasakul",
-                kontakt : "Sigrid Lauren - 5088947",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "110633"
             },
             riided: [
@@ -1410,10 +1410,10 @@ const baasReisid = {
         },
         { koht: {
                 id: "TRLN",
-                nimi: "Thermory Reola, AS - Liimpuit Naised",
-                aadress: "Vilja tee 14, Reola",
-                lisainfo: "Maja Nr 8 - 2. korrusel",
-                kontakt : "Sigrid Lauren - 5088947",
+                nimi: "Thermory Reola",
+                aadress: "Reola",
+                lisainfo: "Maja Nr X - X. korrusel",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "110638"
             },
             riided: [
@@ -1425,9 +1425,9 @@ const baasReisid = {
         },
         { koht: {
                 id: "TRLM",
-                nimi: "Thermory Reola, AS - Liimpuit Mehed",
-                aadress: "Vilja tee 14, Reola",
-                lisainfo: "Maja Nr 8 - 1. korrusel - paremat kätt",
+                nimi: "Thermory Reola,",
+                aadress: "Reola",
+                lisainfo: "Maja Nr X - X. korrusel - xxxxxxx kätt",
                 tarnekood: "110637"
             },
             riided: [
@@ -1439,9 +1439,9 @@ const baasReisid = {
         },
         { koht: {
                 id: "TRT",
-                nimi: "Thermory Reola, AS - Tehnikud",
-                aadress: "Vilja tee 14, Reola",
-                lisainfo: "Üle tee maja - 2. korrusel",
+                nimi: "Thermory Reola",
+                aadress: "Txxxx xxx x, xxand",
+                lisainfo: "Üle tee maja - X. korrusel",
                 tarnekood: "11637"
             },
             riided: [
@@ -1454,9 +1454,9 @@ const baasReisid = {
         { koht: {
                 id: "GBC",
                 nimi: "2G Baltic Company OÜ",
-                aadress: "Tööstuse tee 1, Tõrvandi",
+                aadress: "Txxxx xxx x, xxand",
                 lisainfo: "Avatud 08:00 - 18:00 - Kotiteenus",
-                kontakt : "Gennadi Gruško - 5106533",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114404"
             },
             riided: [
@@ -1471,9 +1471,9 @@ const baasReisid = {
         { koht: {
                 id: "VPT",
                 nimi: "VPT Grupp OÜ",
-                aadress: "Teeninduse tee 3, Tõrvandi",
+                aadress: "Txxxx xxx x, xxand",
                 lisainfo: "Avatud 09:00 - 17:00 - Kotiteenus",
-                kontakt : "Gennadi Gruško - 5106533",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114404"
             },
             riided: [
@@ -1488,9 +1488,9 @@ const baasReisid = {
         { koht: {
                 id: "OH",
                 nimi: "O&H Servis OÜ",
-                aadress: "Teeninduse tee 5, Tõrvandi",
+                aadress: "Txxxx xxx x, xxandi",
                 lisainfo: "Avatud 09:00 - 18:00 - Kotiteenus",
-                kontakt : "Janek Orav - 5282440",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "112328"
             },
             riided: [
@@ -1505,9 +1505,9 @@ const baasReisid = {
         { koht: {
                 id: "TAÕ",
                 nimi: "Thermory AS, Tõrvandi",
-                aadress: "Teeninduse tee 9, Tõrvandi",
+                aadress: "Tõrvandi",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt : "Pille Koppel - 5238262",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114623"
             },
             riided: [
@@ -1520,9 +1520,9 @@ const baasReisid = {
         { koht: {
                 id: "KTO",
                 nimi: "Kaur Trade OÜ",
-                aadress: "Rehepapi tee 23, Soinaste",
+                aadress: "Soinaste",
                 lisainfo: "Avatud 08:00 - 17:00 - mustad triiksärgid pane eraldi kotti",
-                kontakt : "Rene Mõts - 53014648",
+                kontakt : "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "110928"
             },
             riided: [
@@ -1535,9 +1535,9 @@ const baasReisid = {
         { koht: {
                 id: "GZN",
                 nimi: "Gaznet OÜ",
-                aadress: "Jalaka 77, Tartu",
-                lisainfo: "Avatud 08:00 - 17:00 - Kotiteenus - kapid 2. korrusel",
-                kontakt : "Janika Sirvi - 56624955",
+                aadress: "JXXXX, xxxtu",
+                lisainfo: "Avatud 08:00 - 17:00 - Kotiteenus - kapid X. korrusel",
+                kontakt : "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114374"
             },
             riided: [
@@ -1552,9 +1552,9 @@ const baasReisid = {
         { koht: {
                 id: "FDS",
                 nimi: "Fulldrive Service OÜ",
-                aadress: "Tähe 118, Tartu",
+                aadress: "Täxxx xx, xxxtu",
                 lisainfo: "Avatud 08:30 - 17:00 - Kotiteenus",
-                kontakt : "Martin Henrikson - 56883950",
+                kontakt : "Martin Henrikson - +XXX XXXXXXXX",
                 tarnekood: "113122"
             },
             riided: [
@@ -1568,8 +1568,8 @@ const baasReisid = {
         },
         { koht: {
                 id: "AKT",
-                nimi: "Alas-Kuul AS, Tartu",
-                aadress: "Ringtee 35, Tartu",
+                nimi: "Alas-Kuul AS",
+                aadress: "Rxxxx xx, xxtu",
                 lisainfo: "Avatud 08:00 - 17:00 , Kotiteenus",
                 tarnekood: "111870"
             },
@@ -1585,9 +1585,9 @@ const baasReisid = {
         { koht: {
                 id: "NTY",
                 nimi: "Natty OÜ",
-                aadress: "Tähe 114C , Tartu",
-                lisainfo: "Avatud 09:00 - 16:00 -  Uksel tel nr - helista ",
-                kontakt : "56873386",
+                aadress: "Txxx xxxxx, xxrtu",
+                lisainfo: "Avatud 09:00 - 16:00 -  Uksel tel nr - helista +XXX XXXXXXXX ",
+                kontakt : "+XXX XXXXXXXX",
                 tarnekood: "112198"
             },
            vaibad: [
@@ -1610,9 +1610,9 @@ const baasReisid = {
         { koht: {
                 id: "CRNK",
                 nimi: "Crank OÜ",
-                aadress: "Tähe 114C, Tartu",
+                aadress: "Txxx xxx, xxxtu",
                 lisainfo: "Avatud 08:00 - 17:00 - Kotiteenus",
-                kontakt : "Ere-Marje Raidla - 5088349",
+                kontakt : "Kontor - +XXX XXXXXXXX",
                 tarnekood: "114400"
             },
             riided: [
@@ -1627,9 +1627,9 @@ const baasReisid = {
         { koht: {
                 id: "MLS",
                 nimi: "ML Service OÜ",
-                aadress: "Tähe 127, Tartu",
+                aadress: "Txx xxx, Txxtu",
                 lisainfo: "Avatud 09:00 - 18:00 , Kotiteenus",
-                kontakt: "Margus Lauk - 5044430",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113125"
             },
             riided: [
@@ -1644,9 +1644,9 @@ const baasReisid = {
         { koht: {
                 id: "RPI",
                 nimi: "Rehvid pluss, Inoks OÜ",
-                aadress: "Aardla 23C, Tartu",
-                lisainfo: "Avatud 09:00 - 18:00 - Kapid 2. korrusel",
-                kontakt: "Viljar Väre - 55585471",
+                aadress: "Tartu",
+                lisainfo: "Avatud 09:00 - 18:00 - Kapid X. korrusel",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113125"
             },
             riided: [
@@ -1659,9 +1659,9 @@ const baasReisid = {
         { koht: {
                 id: "FRSS",
                 nimi: "Tarfor, Forss",
-                aadress: "Aardla 23C, Tartu",
+                aadress: "Tartu",
                 lisainfo: "Avatud 09:00 - 18:00",
-                kontakt: "Meelis Meemann - 7337024",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "112996"
             },
             riided: [
@@ -1674,9 +1674,9 @@ const baasReisid = {
         { koht: {
                 id: "TMR",
                 nimi: "Tomar Service OÜ",
-                aadress: "Aardla 23E, Tartu",
+                aadress: "Tartu",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt: "Aarne Ambos - 56507507",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113274"
             },
             riided: [
@@ -1689,9 +1689,9 @@ const baasReisid = {
         { koht: {
                 id: "APD",
                 nimi: "Autohospidal OÜ",
-                aadress: "Aardla 25A, Tartu",
-                lisainfo: "Avatud 09:00 - 18:00 - Kotiteenus - 2.korrusel",
-                kontakt: "Veiko Veiksalu - 56662460",
+                aadress: "Axxxx xxx ,xxxtu",
+                lisainfo: "Avatud 09:00 - 18:00 - Kotiteenus - X.korrusel",
+                kontakt: "Tootmine - +XXX XXXXXXXX",
                 tarnekood: "113200"
             },
             riided: [
@@ -1706,9 +1706,9 @@ const baasReisid = {
         { koht: {
                 id: "TAK",
                 nimi: "Tak-Auto OÜ",
-                aadress: "Võru 79A, Tartu",
+                aadress: "Võrxxx xx, xxxxu",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt: "Andrus Avi - 5021444",
+                kontakt: "Tootmine - +XXX XXXXXXXX",
                 tarnekood: "113438"
             },
             riided: [
@@ -1721,9 +1721,9 @@ const baasReisid = {
         { koht: {
                 id: "KRB",
                 nimi: "Kraba - Sepa Keskus",
-                aadress: "Sepa 21, Tartu",
+                aadress: "Sxxx xx, Xxxxx",
                 lisainfo: "Avatud 09:00 - 19:00",
-                kontakt: "Robin Lood - 56003610",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "113330"
             },
             vaibad: [
@@ -1739,9 +1739,9 @@ const baasReisid = {
         { koht: {
                 id: "SPA",
                 nimi: "Sepa Keskus - Sissepääsud",
-                aadress: "Sepa 21, Tartu",
+                aadress: "Sxxx xx, Xxxxx",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt: "Jaanus Ije - 53489622",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "113330"
             },
             vaibad: [
@@ -1757,9 +1757,9 @@ const baasReisid = {
         { koht: {
                 id: "SCD",
                 nimi: "Scandicon OÜ",
-                aadress: "Turu 43, Tartu",
+                aadress: "XXXX xx , Xxxxu",
                 lisainfo: "Avatud 08:30 - 16:30",
-                kontakt: "Carmen Kaur - 55511057",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "114265"
             },
              riided: [
@@ -1772,9 +1772,9 @@ const baasReisid = {
         { koht: {
                 id: "ONN",
                 nimi: "Onninen Tartu Express",
-                aadress: "Tehnika 30, Tartu",
-                lisainfo: "Avatud 07:30 - 17:30 - Riietusruumid 2. korrusel",
-                kontakt: "Piret Kullamaa - 53096963",
+                aadress: "Txxxx xx, Xxxtu",
+                lisainfo: "Avatud 07:30 - 17:30 - Riietusruumid X. korrusel",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113886"
             },
              riided: [
@@ -1787,9 +1787,9 @@ const baasReisid = {
         { koht: {
                 id: "TLB",
                 nimi: "T-Lab OÜ",
-                aadress: "Inseneri 2, Tartu",
-                lisainfo: "Avatud 08:30 - 17:00 - Kapid 2. korrusel",
-                kontakt: "Mardo Silm - 5295534",
+                aadress: "Ixxxxx , xxxtu",
+                lisainfo: "Avatud 08:30 - 17:00 - Kapid X. korrusel",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114265"
             },
              riided: [
@@ -1802,9 +1802,9 @@ const baasReisid = {
         { koht: {
                 id: "VAS",
                 nimi: "Veoautoring Service OÜ",
-                aadress: "Inseneri 2, Tartu",
+                aadress: "Ixxxxxx xx, Xxxxu",
                 lisainfo: "Laouksest sisse - söögitoast paremale uksest läbi on kapid",
-                kontakt: "Jaak Kull - 5120151",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "110938"
             },
              riided: [
@@ -1817,9 +1817,9 @@ const baasReisid = {
         { koht: {
                 id: "ATL",
                 nimi: "Atlante autoteenindus",
-                aadress: "Jaama 143, Tartu",
+                aadress: "Jxxxx xxx, Xxxxu",
                 lisainfo: "Avatud 08:00 - 17:00",
-                kontakt: "Indrek Jaks - 5015830",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113965"
             },
              riided: [
@@ -1834,9 +1834,9 @@ const baasReisid = {
         { koht: {
                 id: "TKM",
                 nimi: "Thermory AS, Kastre",
-                aadress: "Vana-Kastre, Kastre Vald",
-                lisainfo: "Värvanumber - 53302085 - Garderoobid 2. korrusel",
-                kontakt: "Pille Koppel - 5238262",
+                aadress: "Vxxx-xxxxx, Kasxxx-xxxd",
+                lisainfo: "Värvanumber - +XXX XXXXXXXX - Garderoobid X. korrusel",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "110519"
             },
              riided: [
@@ -1853,9 +1853,9 @@ const baasReisid = {
         { koht: {
                 id: "AJM",
                 nimi: "JM Auto OÜ",
-                aadress: "Puiestee 2F/1, Tartu",
+                aadress: "PXXXXX x ,Xxxu",
                 lisainfo: "Avatakse 08:00 - 17:00",
-                kontakt: "Joel Luht - 55649437",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114127"
             },
              riided: [
@@ -1868,9 +1868,9 @@ const baasReisid = {
         { koht: {
                 id: "THK",
                 nimi: "Tartu hooldekodu",
-                aadress: "Liiva 32, Tartu",
+                aadress: "Lxxxx xx, Txxxx",
                 lisainfo: "Avatakse 08:00 - 17:00",
-                kontakt: "Sirje Muuga - 51988908",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "114161"
             },
              riided: [
@@ -1883,9 +1883,9 @@ const baasReisid = {
         { koht: {
                 id: "IAC",
                 nimi: "IAC - Kooste ja CNC",
-                aadress: "Vaksali 61, Tartu",
+                aadress: "Vxxx XXX, Xxxxu",
                 lisainfo: "Avatakse 08:00 - 17:00",
-                kontakt: "Roland Jaomets - 55551248",
+                kontakt: "Klienditeenindus - +XXX XXXXXXXX",
                 tarnekood: "110511"
             },
              riided: [
@@ -1898,9 +1898,9 @@ const baasReisid = {
         { koht: {
                 id: "PFG",
                 nimi: "PFG OÜ",
-                aadress: "Ravila 57, Tartu",
+                aadress: "Rxxx XXX, Xxxxu",
                 lisainfo: "Avatakse 08:00 - 17:00 - kotiteenus",
-                kontakt: "Marten-Egert Kangur - 53787052",
+                kontakt: "+XXX XXXXXXXX",
                 tarnekood: "113126"
             },
              riided: [
@@ -1915,9 +1915,9 @@ const baasReisid = {
         { koht: {
                 id: "TXS",
                 nimi: "Texas Service OÜ",
-                aadress: "Vinkli 4, Tartu",
+                aadress: "Vxxxxx , XXXtu",
                 lisainfo: "Avatakse 09:00 - 18:00",
-                kontakt: "Inguna Oraka - 55608814",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "112729"
             },
              riided: [
@@ -1930,9 +1930,9 @@ const baasReisid = {
         { koht: {
                 id: "EST",
                 nimi: "EST-Trans Tartu",
-                aadress: "Vinkli 8, Tartu",
-                lisainfo: "Avatakse 08:00 - 17:00 - tõkkepuu 53836635",
-                kontakt: "Liisa Unt - 53074055",
+                aadress: "Vxxxxx x, XXXtu",
+                lisainfo: "Avatakse 08:00 - 17:00 - tõkkepuu xxxxxxxx",
+                kontakt: "+XXX XXXXXXXX",
                 tarnekood: "111214"
             },
              riided: [
@@ -1945,9 +1945,9 @@ const baasReisid = {
         { koht: {
                 id: "BLC",
                 nimi: "Baltic Industrial",
-                aadress: "Viljandi mnt 75, Õssu",
+                aadress: "Vilxxxxx xxx, XXu",
                 lisainfo: "Sissepääs võtmega tagant uksest",
-                kontakt: "Madis - 530243",
+                kontakt: "Juht - +XXX XXXXXXXX",
                 tarnekood: "112980"
             },
              riided: [
@@ -1960,9 +1960,9 @@ const baasReisid = {
         { koht: {
                 id: "VKK",
                 nimi: "Veokikeskus OÜ",
-                aadress: "Kassisilma 26, Räni",
+                aadress: "Kassixxx xx, Xxxi",
                 lisainfo: "Avatakse 08:00 - 17:00",
-                kontakt: "Jaan Hermann - 5018545",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "114127"
             },
              riided: [
@@ -1977,9 +1977,9 @@ const baasReisid = {
         { koht: {
                 id: "SBE",
                 nimi: "Sebe",
-                aadress: "Kassisilma 24, Räni",
+                aadress: "Kassixxxx 2x, Räni",
                 lisainfo: "Pole vaja minna - pesevad riideid kodus",
-                kontakt: "Olga Galetko - 5092113",
+                kontakt: "Haldur - +XXX XXXXXXXX",
                 tarnekood: "113224"
             },
              riided: [
